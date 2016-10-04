@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>두 번째 실습</title>
+</head>
+
+<body>
+    <div class="contents">
+        <h1>도형 넓이 계산기</h1>
+        <div class="row">
+            <h2>원</h2>
+            <label for="circle-radius">반지름: </label>
+            <input type="number" name="circle-radius" id="circle-radius" size="4" />
+            <button type="button" id="circle-button">계산</button>
+            <br>
+            <label for="circle-area">결과: </label>
+            <input type="number" name="circle-area" id="circle-area" size="4" readonly/>
+        </div>
+
+        <div class="row">
+            <h2>직사각형</h2>
+            <label for="rectangle-width">넓이: </label>
+            <input type="number" name="rectangle-width" id="rectangle-width" size="4" />
+            <label for="rectangle-height">높이: </label>
+            <input type="number" name="rectangle-height" id="rectangle-height" size="4" />
+            <button type="button" id="rectangle-button">계산</button>
+            <br>
+            <label for="rectangle-area">결과: </label>
+            <input type="number" name="rectangle-area" id="rectangle-area" size="4" readonly/>
+        </div>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./dist/app.js"></script>
+    <script>
+     $(document).ready(function() {
+      $("#circle-button").on('click', function() {
+        var radius = $("#circle-radius").val();
+        $("#circle-area").val(App.areaOfCircle(radius));
+      });
+
+      $("#rectangle-button").on('click', function() {
+        var w = $("#rectangle-width").val();
+        var h = $("#rectangle-height").val();
+        $("#rectangle-area").val(App.areaOfRectangle(w, h));
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>두 번째 실습</title>
+    <title>도형 계산기</title>
 </head>
 
 <body>
@@ -34,20 +34,6 @@
     </div>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./dist/app.js"></script>
-    <script>
-     $(document).ready(function() {
-      $("#circle-button").on('click', function() {
-        var radius = $("#circle-radius").val();
-        $("#circle-area").val(App.areaOfCircle(radius));
-      });
-
-      $("#rectangle-button").on('click', function() {
-        var w = $("#rectangle-width").val();
-        var h = $("#rectangle-height").val();
-        $("#rectangle-area").val(App.areaOfRectangle(w, h));
-      });
-    });
-  </script>
 </body>
 
 </html>

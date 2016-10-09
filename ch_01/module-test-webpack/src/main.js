@@ -3,13 +3,13 @@ import $ from 'jquery';
 
 $(document).ready(function () {
     $("#circle-button").on('click', function () {
-        var radius = $("#circle-radius").val();
-        $("#circle-area").val(areaOfCircle(radius));
+        var radius = $("[name=circle-radius]").val();
+        $("[name=circle-area]").val(areaOfCircle(radius));
     });
 
     $("#rectangle-button").on('click', function () {
-        var w = $("#rectangle-width").val();
-        var h = $("#rectangle-height").val();
-        $("#rectangle-area").val(areaOfRectangle(w, h));
+        var w = $("[name=rectangle-width]").val();
+        var h = $("[name=rectangle-height]").val();
+        $("[name=rectangle-area]").val(areaOfRectangle(w, h));
     });
 });

@@ -56,14 +56,14 @@
 
 	(0, _jquery2.default)(document).ready(function () {
 	    (0, _jquery2.default)("#circle-button").on('click', function () {
-	        var radius = (0, _jquery2.default)("#circle-radius").val();
-	        (0, _jquery2.default)("#circle-area").val((0, _areaUtil.areaOfCircle)(radius));
+	        var radius = (0, _jquery2.default)("[name=circle-radius]").val();
+	        (0, _jquery2.default)("[name=circle-area]").val((0, _areaUtil.areaOfCircle)(radius));
 	    });
 
 	    (0, _jquery2.default)("#rectangle-button").on('click', function () {
-	        var w = (0, _jquery2.default)("#rectangle-width").val();
-	        var h = (0, _jquery2.default)("#rectangle-height").val();
-	        (0, _jquery2.default)("#rectangle-area").val((0, _areaUtil.areaOfRectangle)(w, h));
+	        var w = (0, _jquery2.default)("[name=rectangle-width]").val();
+	        var h = (0, _jquery2.default)("[name=rectangle-height]").val();
+	        (0, _jquery2.default)("[name=rectangle-area]").val((0, _areaUtil.areaOfRectangle)(w, h));
 	    });
 	});
 

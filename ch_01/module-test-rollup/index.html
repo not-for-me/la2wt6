@@ -3,8 +3,9 @@
 <html lang="ko">
 
 <head>
-    <meta charset="utf-8">
     <title>도형 계산기</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -13,26 +14,25 @@
         <div class="row">
             <h2>원</h2>
             <label for="circle-radius">반지름: </label>
-            <input type="number" name="circle-radius" id="circle-radius" size="4" />
+            <input type="number" name="circle-radius" />
             <button type="button" id="circle-button">계산</button>
             <br>
             <label for="circle-area">결과: </label>
-            <input type="number" name="circle-area" id="circle-area" size="4" readonly/>
+            <input type="number" name="circle-area" readonly/>
         </div>
 
         <div class="row">
             <h2>직사각형</h2>
             <label for="rectangle-width">넓이: </label>
-            <input type="number" name="rectangle-width" id="rectangle-width" size="4" />
+            <input type="number" name="rectangle-width" />
             <label for="rectangle-height">높이: </label>
-            <input type="number" name="rectangle-height" id="rectangle-height" size="4" />
+            <input type="number" name="rectangle-height" />
             <button type="button" id="rectangle-button">계산</button>
             <br>
             <label for="rectangle-area">결과: </label>
-            <input type="number" name="rectangle-area" id="rectangle-area" size="4" readonly/>
+            <input type="number" name="rectangle-area" readonly/>
         </div>
     </div>
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./dist/app.js"></script>
 </body>
 

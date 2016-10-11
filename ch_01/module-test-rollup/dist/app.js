@@ -11044,14 +11044,14 @@ return jQuery;
 
 jquery$1(document).ready(function () {
     jquery$1("#circle-button").on('click', function () {
-        var radius = jquery$1("#circle-radius").val();
-        jquery$1("#circle-area").val(areaOfCircle(radius));
+        var radius = jquery$1("[name=circle-radius]").val();
+        jquery$1("[name=circle-area]").val(areaOfCircle(radius));
     });
 
     jquery$1("#rectangle-button").on('click', function () {
-        var w = jquery$1("#rectangle-width").val();
-        var h = jquery$1("#rectangle-height").val();
-        jquery$1("#rectangle-area").val(areaOfRectangle(w, h));
+        var w = jquery$1("[name=rectangle-width]").val();
+        var h = jquery$1("[name=rectangle-height]").val();
+        jquery$1("[name=rectangle-area]").val(areaOfRectangle(w, h));
     });
 });
 

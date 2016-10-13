@@ -1,16 +1,13 @@
-import { NgModule }      from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MultiLangSupportModule } from './multi-lang/multi-lang.module';
 
 import { AppComponent } from './app.component';
-import { WelcomeComponent } from './welcome.component';
-
-import { WelcomeMsgService } from './welcome.service';
 
 @NgModule({
-  imports:      [ BrowserModule ],
-  declarations: [AppComponent, WelcomeComponent],
-  providers: [WelcomeMsgService],
-  bootstrap:    [AppComponent]
+  imports: [BrowserModule, MultiLangSupportModule],
+  declarations: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
 

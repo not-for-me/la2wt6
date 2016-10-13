@@ -40,9 +40,8 @@
 /******/ 	return __webpack_require__(0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 0:
+/******/ ([
+/* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -53,8 +52,7 @@
 
 
 /***/ },
-
-/***/ 1:
+/* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -267,8 +265,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-
-/***/ 2:
+/* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -17872,8 +17869,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-
-/***/ 3:
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -27716,8 +27712,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-
-/***/ 4:
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27882,8 +27877,7 @@
 	//# sourceMappingURL=Subject.js.map
 
 /***/ },
-
-/***/ 5:
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28028,8 +28022,7 @@
 	//# sourceMappingURL=Observable.js.map
 
 /***/ },
-
-/***/ 6:
+/* 6 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {"use strict";
@@ -28050,8 +28043,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-
-/***/ 7:
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28075,8 +28067,7 @@
 	//# sourceMappingURL=toSubscriber.js.map
 
 /***/ },
-
-/***/ 8:
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28330,8 +28321,7 @@
 	//# sourceMappingURL=Subscriber.js.map
 
 /***/ },
-
-/***/ 9:
+/* 9 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28342,8 +28332,7 @@
 	//# sourceMappingURL=isFunction.js.map
 
 /***/ },
-
-/***/ 10:
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28501,8 +28490,7 @@
 	//# sourceMappingURL=Subscription.js.map
 
 /***/ },
-
-/***/ 11:
+/* 11 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28510,8 +28498,7 @@
 	//# sourceMappingURL=isArray.js.map
 
 /***/ },
-
-/***/ 12:
+/* 12 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28522,8 +28509,7 @@
 	//# sourceMappingURL=isObject.js.map
 
 /***/ },
-
-/***/ 13:
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28547,8 +28533,7 @@
 	//# sourceMappingURL=tryCatch.js.map
 
 /***/ },
-
-/***/ 14:
+/* 14 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28557,8 +28542,7 @@
 	//# sourceMappingURL=errorObject.js.map
 
 /***/ },
-
-/***/ 15:
+/* 15 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28588,8 +28572,7 @@
 	//# sourceMappingURL=UnsubscriptionError.js.map
 
 /***/ },
-
-/***/ 16:
+/* 16 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28602,8 +28585,7 @@
 	//# sourceMappingURL=Observer.js.map
 
 /***/ },
-
-/***/ 17:
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28614,8 +28596,7 @@
 	//# sourceMappingURL=rxSubscriber.js.map
 
 /***/ },
-
-/***/ 18:
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28642,8 +28623,7 @@
 	//# sourceMappingURL=observable.js.map
 
 /***/ },
-
-/***/ 19:
+/* 19 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28675,8 +28655,7 @@
 	//# sourceMappingURL=ObjectUnsubscribedError.js.map
 
 /***/ },
-
-/***/ 20:
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28721,8 +28700,7 @@
 	//# sourceMappingURL=SubjectSubscription.js.map
 
 /***/ },
-
-/***/ 21:
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -31627,8 +31605,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-
-/***/ 22:
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -34758,8 +34735,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-
-/***/ 23:
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -34774,17 +34750,15 @@
 	};
 	var core_1 = __webpack_require__(3);
 	var platform_browser_1 = __webpack_require__(21);
-	var app_component_1 = __webpack_require__(24);
-	var welcome_component_1 = __webpack_require__(25);
-	var welcome_service_1 = __webpack_require__(26);
+	var multi_lang_module_1 = __webpack_require__(24);
+	var app_component_1 = __webpack_require__(28);
 	var AppModule = (function () {
 	    function AppModule() {
 	    }
 	    AppModule = __decorate([
 	        core_1.NgModule({
-	            imports: [platform_browser_1.BrowserModule],
-	            declarations: [app_component_1.AppComponent, welcome_component_1.WelcomeComponent],
-	            providers: [welcome_service_1.WelcomeMsgService],
+	            imports: [platform_browser_1.BrowserModule, multi_lang_module_1.MultiLangSupportModule],
+	            declarations: [app_component_1.AppComponent],
 	            bootstrap: [app_component_1.AppComponent]
 	        }), 
 	        __metadata('design:paramtypes', [])
@@ -34795,8 +34769,7 @@
 
 
 /***/ },
-
-/***/ 24:
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -34810,28 +34783,28 @@
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(3);
-	var AppComponent = (function () {
-	    function AppComponent() {
-	        this.appTitle = "다국어 인사말 서비스";
+	var common_1 = __webpack_require__(22);
+	var welcome_component_1 = __webpack_require__(25);
+	var welcome_service_1 = __webpack_require__(26);
+	var MultiLangSupportModule = (function () {
+	    function MultiLangSupportModule() {
 	    }
-	    AppComponent.prototype.ngOnInit = function () {
-	        alert("안녕하세요! 이름을 입력해 주세요");
-	    };
-	    AppComponent = __decorate([
-	        core_1.Component({
-	            selector: 'my-app',
-	            template: "\n    <h1>{{appTitle}}</h1>\n    <welcome-box></welcome-box>\n    ",
+	    MultiLangSupportModule = __decorate([
+	        core_1.NgModule({
+	            imports: [common_1.CommonModule],
+	            declarations: [welcome_component_1.WelcomeComponent],
+	            exports: [welcome_component_1.WelcomeComponent],
+	            providers: [welcome_service_1.WelcomeMsgService],
 	        }), 
 	        __metadata('design:paramtypes', [])
-	    ], AppComponent);
-	    return AppComponent;
+	    ], MultiLangSupportModule);
+	    return MultiLangSupportModule;
 	}());
-	exports.AppComponent = AppComponent;
+	exports.MultiLangSupportModule = MultiLangSupportModule;
 
 
 /***/ },
-
-/***/ 25:
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -34846,7 +34819,7 @@
 	};
 	var core_1 = __webpack_require__(3);
 	var welcome_service_1 = __webpack_require__(26);
-	var lang_metadata_1 = __webpack_require__(337);
+	var lang_metadata_1 = __webpack_require__(27);
 	var WelcomeComponent = (function () {
 	    function WelcomeComponent(welcomeMsgService) {
 	        this.welcomeMsgService = welcomeMsgService;
@@ -34866,7 +34839,7 @@
 	    WelcomeComponent = __decorate([
 	        core_1.Component({
 	            selector: 'welcome-box',
-	            templateUrl: 'src/welcome.component.html',
+	            templateUrl: 'src/multi-lang/welcome.component.html',
 	            styles: ["\n        .country-box {\n            width: 15%;\n            display: inline-block;\n            margin: 10px 15px;\n        }\n        .country-box img {\n            width: 120px;\n        }\n    "]
 	        }), 
 	        __metadata('design:paramtypes', [welcome_service_1.WelcomeMsgService])
@@ -34877,12 +34850,11 @@
 
 
 /***/ },
-
-/***/ 26:
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var lang_metadata_1 = __webpack_require__(337);
+	var lang_metadata_1 = __webpack_require__(27);
 	var WelcomeMsgService = (function () {
 	    function WelcomeMsgService() {
 	    }
@@ -34901,8 +34873,7 @@
 
 
 /***/ },
-
-/***/ 337:
+/* 27 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -34940,6 +34911,39 @@
 	];
 
 
-/***/ }
+/***/ },
+/* 28 */
+/***/ function(module, exports, __webpack_require__) {
 
-/******/ });
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var __metadata = (this && this.__metadata) || function (k, v) {
+	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+	};
+	var core_1 = __webpack_require__(3);
+	var AppComponent = (function () {
+	    function AppComponent() {
+	        this.appTitle = "다국어 인사말 서비스";
+	    }
+	    AppComponent.prototype.ngOnInit = function () {
+	        alert("안녕하세요! 이름을 입력해 주세요");
+	    };
+	    AppComponent = __decorate([
+	        core_1.Component({
+	            selector: 'my-app',
+	            template: "\n    <h1>{{appTitle}}</h1>\n    <welcome-box></welcome-box>\n    ",
+	        }), 
+	        __metadata('design:paramtypes', [])
+	    ], AppComponent);
+	    return AppComponent;
+	}());
+	exports.AppComponent = AppComponent;
+
+
+/***/ }
+/******/ ]);

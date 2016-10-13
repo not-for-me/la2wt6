@@ -5,7 +5,7 @@ import { LANG_METADATA } from './lang-metadata';
 
 @Component({
     selector: 'welcome-box',
-    templateUrl: 'src/welcome.component.html',
+    templateUrl: 'src/multi-lang/welcome.component.html',
     styles: [`
         .country-box {
             width: 15%;

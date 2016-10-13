@@ -1,17 +1,13 @@
+import { LANG_METADATA } from './lang-metadata';
+
 export class WelcomeMsgService {
-    welcomeMsg: any;
-
-    constructor() {
-        this.welcomeMsg = {
-            'ko': '안녕하세요',
-            'en': 'Hello',
-            'jp': '初めまして',
-            'fr': 'Bonjour'
-        };
-    }
-
     getWelcomeMsgI18n(userName, langType: string) {
-        const helloMsg = this.welcomeMsg[langType];
+        let helloMsg = '';
+        LANG_METADATA.forEach((lang) => {
+            if (lang.code === langType) {
+                helloMsg = lang.msg;
+            }
+        });
         return `${helloMsg}, ${userName}!`;
     }
 }

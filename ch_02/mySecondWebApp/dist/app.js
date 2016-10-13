@@ -34879,20 +34879,20 @@
 /***/ },
 
 /***/ 26:
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+	var lang_metadata_1 = __webpack_require__(337);
 	var WelcomeMsgService = (function () {
 	    function WelcomeMsgService() {
-	        this.welcomeMsg = {
-	            'ko': '안녕하세요',
-	            'en': 'Hello',
-	            'jp': '初めまして',
-	            'fr': 'Bonjour'
-	        };
 	    }
 	    WelcomeMsgService.prototype.getWelcomeMsgI18n = function (userName, langType) {
-	        var helloMsg = this.welcomeMsg[langType];
+	        var helloMsg = '';
+	        lang_metadata_1.LANG_METADATA.forEach(function (lang) {
+	            if (lang.code === langType) {
+	                helloMsg = lang.msg;
+	            }
+	        });
 	        return helloMsg + ", " + userName + "!";
 	    };
 	    return WelcomeMsgService;
@@ -34910,22 +34910,32 @@
 	    {
 	        code: 'kr',
 	        name: '한글',
-	        flagImgName: 'South_Korea.png'
+	        flagImgName: 'South_Korea.png',
+	        msg: '안녕하세요'
 	    },
 	    {
 	        code: 'us',
 	        name: '영어',
-	        flagImgName: 'United_States.png'
+	        flagImgName: 'United_States.png',
+	        msg: 'Hello'
 	    },
 	    {
 	        code: 'jp',
 	        name: '일본어',
-	        flagImgName: 'Japan.png'
+	        flagImgName: 'Japan.png',
+	        msg: '初めまして'
 	    },
 	    {
 	        code: 'fr',
 	        name: '불어',
-	        flagImgName: 'France.png'
+	        flagImgName: 'France.png',
+	        msg: 'Bonjour'
+	    },
+	    {
+	        code: 'cn',
+	        name: '중국어',
+	        flagImgName: 'China.png',
+	        msg: '您好'
 	    }
 	];
 

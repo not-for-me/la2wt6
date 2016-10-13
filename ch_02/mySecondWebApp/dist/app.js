@@ -40,8 +40,9 @@
 /******/ 	return __webpack_require__(0);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -52,7 +53,8 @@
 
 
 /***/ },
-/* 1 */
+
+/***/ 1:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -265,7 +267,8 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 2 */
+
+/***/ 2:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -17869,7 +17872,8 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 3 */
+
+/***/ 3:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -27712,7 +27716,8 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 4 */
+
+/***/ 4:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27877,7 +27882,8 @@
 	//# sourceMappingURL=Subject.js.map
 
 /***/ },
-/* 5 */
+
+/***/ 5:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28022,7 +28028,8 @@
 	//# sourceMappingURL=Observable.js.map
 
 /***/ },
-/* 6 */
+
+/***/ 6:
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {"use strict";
@@ -28043,7 +28050,8 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 7 */
+
+/***/ 7:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28067,7 +28075,8 @@
 	//# sourceMappingURL=toSubscriber.js.map
 
 /***/ },
-/* 8 */
+
+/***/ 8:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28321,7 +28330,8 @@
 	//# sourceMappingURL=Subscriber.js.map
 
 /***/ },
-/* 9 */
+
+/***/ 9:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28332,7 +28342,8 @@
 	//# sourceMappingURL=isFunction.js.map
 
 /***/ },
-/* 10 */
+
+/***/ 10:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28490,7 +28501,8 @@
 	//# sourceMappingURL=Subscription.js.map
 
 /***/ },
-/* 11 */
+
+/***/ 11:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28498,7 +28510,8 @@
 	//# sourceMappingURL=isArray.js.map
 
 /***/ },
-/* 12 */
+
+/***/ 12:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28509,7 +28522,8 @@
 	//# sourceMappingURL=isObject.js.map
 
 /***/ },
-/* 13 */
+
+/***/ 13:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28533,7 +28547,8 @@
 	//# sourceMappingURL=tryCatch.js.map
 
 /***/ },
-/* 14 */
+
+/***/ 14:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28542,7 +28557,8 @@
 	//# sourceMappingURL=errorObject.js.map
 
 /***/ },
-/* 15 */
+
+/***/ 15:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28572,7 +28588,8 @@
 	//# sourceMappingURL=UnsubscriptionError.js.map
 
 /***/ },
-/* 16 */
+
+/***/ 16:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28585,7 +28602,8 @@
 	//# sourceMappingURL=Observer.js.map
 
 /***/ },
-/* 17 */
+
+/***/ 17:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28596,7 +28614,8 @@
 	//# sourceMappingURL=rxSubscriber.js.map
 
 /***/ },
-/* 18 */
+
+/***/ 18:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28623,7 +28642,8 @@
 	//# sourceMappingURL=observable.js.map
 
 /***/ },
-/* 19 */
+
+/***/ 19:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -28655,7 +28675,8 @@
 	//# sourceMappingURL=ObjectUnsubscribedError.js.map
 
 /***/ },
-/* 20 */
+
+/***/ 20:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28700,7 +28721,8 @@
 	//# sourceMappingURL=SubjectSubscription.js.map
 
 /***/ },
-/* 21 */
+
+/***/ 21:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -31605,7 +31627,8 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 22 */
+
+/***/ 22:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -34735,7 +34758,8 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 23 */
+
+/***/ 23:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -34751,13 +34775,16 @@
 	var core_1 = __webpack_require__(3);
 	var platform_browser_1 = __webpack_require__(21);
 	var app_component_1 = __webpack_require__(24);
+	var welcome_component_1 = __webpack_require__(25);
+	var welcome_service_1 = __webpack_require__(26);
 	var AppModule = (function () {
 	    function AppModule() {
 	    }
 	    AppModule = __decorate([
 	        core_1.NgModule({
 	            imports: [platform_browser_1.BrowserModule],
-	            declarations: [app_component_1.AppComponent],
+	            declarations: [app_component_1.AppComponent, welcome_component_1.WelcomeComponent],
+	            providers: [welcome_service_1.WelcomeMsgService],
 	            bootstrap: [app_component_1.AppComponent]
 	        }), 
 	        __metadata('design:paramtypes', [])
@@ -34768,7 +34795,8 @@
 
 
 /***/ },
-/* 24 */
+
+/***/ 24:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -34784,19 +34812,15 @@
 	var core_1 = __webpack_require__(3);
 	var AppComponent = (function () {
 	    function AppComponent() {
+	        this.appTitle = "다국어 인사말 서비스";
 	    }
-	    AppComponent.prototype.showAlert = function () {
-	        var myName = this.myElem.nativeElement.value;
-	        alert("\uC548\uB155\uD558\uC138\uC694, " + myName + "\uB2D8!");
+	    AppComponent.prototype.ngOnInit = function () {
+	        alert("안녕하세요! 이름을 입력해 주세요");
 	    };
-	    __decorate([
-	        core_1.ViewChild("myInputElem"), 
-	        __metadata('design:type', core_1.ElementRef)
-	    ], AppComponent.prototype, "myElem", void 0);
 	    AppComponent = __decorate([
 	        core_1.Component({
 	            selector: 'my-app',
-	            template: "\n    <div class=\"contents\">\n        <label for=\"user-name\">\uC0AC\uC6A9\uC790 \uC774\uB984: </label>\n        <input #myInputElem type=\"text\" name=\"user-name\">\n        <button type=\"button\" (click)=\"showAlert()\">\uC785\uB825</button>\n    </div>\n    ",
+	            template: "\n    <h1>{{appTitle}}</h1>\n    <welcome-box></welcome-box>\n    ",
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], AppComponent);
@@ -34805,5 +34829,107 @@
 	exports.AppComponent = AppComponent;
 
 
+/***/ },
+
+/***/ 25:
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var __metadata = (this && this.__metadata) || function (k, v) {
+	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+	};
+	var core_1 = __webpack_require__(3);
+	var welcome_service_1 = __webpack_require__(26);
+	var lang_metadata_1 = __webpack_require__(337);
+	var WelcomeComponent = (function () {
+	    function WelcomeComponent(welcomeMsgService) {
+	        this.welcomeMsgService = welcomeMsgService;
+	        this.langMetadata = lang_metadata_1.LANG_METADATA;
+	        this.langType = 'kr';
+	    }
+	    WelcomeComponent.prototype.showAlert = function () {
+	        var msg = this.welcomeMsgService.getWelcomeMsgI18n(this.userName, this.langType);
+	        alert(msg);
+	    };
+	    WelcomeComponent.prototype.setUserName = function ($event) {
+	        this.userName = $event.target.value;
+	    };
+	    WelcomeComponent.prototype.setLangType = function (type) {
+	        this.langType = type;
+	    };
+	    WelcomeComponent = __decorate([
+	        core_1.Component({
+	            selector: 'welcome-box',
+	            templateUrl: 'src/welcome.component.html',
+	            styles: ["\n        .country-box {\n            width: 15%;\n            display: inline-block;\n            margin: 10px 15px;\n        }\n        .country-box img {\n            width: 120px;\n        }\n    "]
+	        }), 
+	        __metadata('design:paramtypes', [welcome_service_1.WelcomeMsgService])
+	    ], WelcomeComponent);
+	    return WelcomeComponent;
+	}());
+	exports.WelcomeComponent = WelcomeComponent;
+
+
+/***/ },
+
+/***/ 26:
+/***/ function(module, exports) {
+
+	"use strict";
+	var WelcomeMsgService = (function () {
+	    function WelcomeMsgService() {
+	        this.welcomeMsg = {
+	            'ko': '안녕하세요',
+	            'en': 'Hello',
+	            'jp': '初めまして',
+	            'fr': 'Bonjour'
+	        };
+	    }
+	    WelcomeMsgService.prototype.getWelcomeMsgI18n = function (userName, langType) {
+	        var helloMsg = this.welcomeMsg[langType];
+	        return helloMsg + ", " + userName + "!";
+	    };
+	    return WelcomeMsgService;
+	}());
+	exports.WelcomeMsgService = WelcomeMsgService;
+
+
+/***/ },
+
+/***/ 337:
+/***/ function(module, exports) {
+
+	"use strict";
+	exports.LANG_METADATA = [
+	    {
+	        code: 'kr',
+	        name: '한글',
+	        flagImgName: 'South_Korea.png'
+	    },
+	    {
+	        code: 'us',
+	        name: '영어',
+	        flagImgName: 'United_States.png'
+	    },
+	    {
+	        code: 'jp',
+	        name: '일본어',
+	        flagImgName: 'Japan.png'
+	    },
+	    {
+	        code: 'fr',
+	        name: '불어',
+	        flagImgName: 'France.png'
+	    }
+	];
+
+
 /***/ }
-/******/ ]);
+
+/******/ });

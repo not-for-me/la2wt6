@@ -1,22 +1,19 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild, ElementRef, OnInit } from '@angular/core';
 
 @Component({
     selector: 'my-app',
     template: `
-    <div class="contents">
-        <label for="user-name">사용자 이름: </label>
-        <input #myInputElem type="text" name="user-name">
-        <button type="button" (click)="showAlert()">입력</button>
-    </div>
+    <h1>{{appTitle}}</h1>
+    <welcome-box></welcome-box>
     `,
 })
-export class AppComponent { 
-    @ViewChild("myInputElem")
-    private myElem: ElementRef;
-    
-    showAlert() {
-        const myName = this.myElem.nativeElement.value;
-        alert(`안녕하세요, ${myName}님!`);
+export class AppComponent implements OnInit {
+    appTitle: string;
+    constructor() {
+        this.appTitle = "다국어 인사말 서비스";
+    }
+
+    ngOnInit() {
+        alert("안녕하세요! 이름을 입력해 주세요");
     }
 }
-

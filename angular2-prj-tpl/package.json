@@ -1,0 +1,41 @@
+{
+  "name": "test-component",
+  "version": "1.0.0",
+  "description": "Angular 컴포넌트 테스트용 프로젝트",
+  "main": "dist/app.js",
+  "repository": {
+    "url": "https://github.com/not-for-me/la2wt6",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "webpack --inline --colors --progress --display-error-details --display-cached",
+    "server": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000  --content-base dist",
+    "start": "npm run server"
+  },
+  "author": "woojin.joe",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/node": "^6.0.45",
+    "angular2-template-loader": "^0.4.0",
+    "awesome-typescript-loader": "^1.1.1",
+    "concurrently": "^3.0.0",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.22.0",
+    "raw-loader": "^0.5.1",
+    "to-string-loader": "^1.1.5",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

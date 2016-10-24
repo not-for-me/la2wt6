@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
     selector: 'app',
     template: `
         <p>{{contentData}}</p>
-        <p>{{getSomeText(‘Angular2’)}}</p>
-        <p>{{ ‘<‘ + contentData + ‘>’ }}</p>
+        <p>{{getSomeText('Angular2')}}</p>
+        <p>{{ '<' + contentData + '>' }}</p>
         <p [textContent]="contentData"></p>
     `
 })

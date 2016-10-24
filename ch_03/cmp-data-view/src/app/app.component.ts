@@ -1,14 +1,16 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'app',
-    templateUrl: 'app.component.html',
-    styleUrls: ['app.component.css']
+    template: `
+        <p>{{contentData}}</p>
+        <p [textContent]="contentData"></p>
+        <button color="primary" (click)="changeText()">{{getSomeButtonText('abc')}}</button>
+    `
 })
 export class AppComponent {
     contentData: string;
-    @ViewChild('chkBox')
-    chkBoxElemRef: ElementRef;
+    backupData: string = "데이터 변경의 반영도 Angular가";
 
     constructor() {
         this.contentData = "데이터 노출은 Angular에게 위임을";
@@ -19,7 +21,9 @@ export class AppComponent {
         return `입력: ${code}`;
     }
 
-    confirm() {
-        alert(`체크여부: ${this.chkBoxElemRef.nativeElement.checked}`);
+    changeText() {
+        const tempData = this.contentData;
+        this.contentData = this.backupData;
+        this.backupData = tempData;
     }
 }

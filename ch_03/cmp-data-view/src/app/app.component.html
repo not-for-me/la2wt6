@@ -1,5 +1,10 @@
 <div class="app-content">
 	<md-card>
+		<label for="chk-btn">선언적 방식</label>
+		<input #chkBox type="checkbox" id="chk-btn"/>
+		<button md-raised-button (click)="confirm()">확인</button>
+	</md-card>
+	<md-card>
 		<p>{{contentData}}</p>
 		<p [textContent]="contentData"></p>
 		<button md-raised-button color="primary">{{getSomeButtonText('abc')}}</button>

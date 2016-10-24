@@ -5,9 +5,14 @@ import { Component } from '@angular/core';
     templateUrl: 'app.component.html',
     styleUrls: ['app.component.css']
 })
-export class AppComponent {
+export class MainComponent {
     appTitle: string;
+
     constructor() {
         this.appTitle = "Angular2 is awesome!!!";
+    }
+
+    myFunc() {
+        console.log("test");
     }
 }

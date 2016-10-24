@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -23,10 +24,27 @@ module.exports = {
        * 
        */
       { test: /\.css$/, loaders: ['to-string-loader', 'css-loader'] },
+      { test: /\.scss$/, loaders: ["raw-loader", "sass-loader"] },
       /**
        * 
        */
-      { test: /\.html$/, loader: 'raw-loader' }
+      { test: /\.html$/, loader: 'raw-loader' },
+      {
+        test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=10000&minetype=application/font-woff"
+      }, {
+        test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=10000&minetype=application/font-woff"
+      }, {
+        test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=10000&minetype=application/octet-stream"
+      }, {
+        test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "file"
+      }, {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url?limit=10000&minetype=image/svg+xml"
+      }
     ]
   },
   plugins: [
@@ -38,6 +56,7 @@ module.exports = {
     // new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } }),
     new HtmlWebpackPlugin({
       template: 'src/index.html'
-    })
+    }),
+    new CopyWebpackPlugin([{ from: 'src/favicon.ico', to: 'favicon.ico' }])
   ]
 };

@@ -2,22 +2,56 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app',
+    styles: [`
+        .counter {
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: grey;
+            font-size: 80px;
+            border: 1px solid #000
+        }
+        .buttons {
+            width: 100px;
+            text-align: center;
+        }
+    `],
     template: `
-        <p>{{contentData}}</p>
-        <p>{{getSomeText('Angular2')}}</p>
-        <p>{{ '<' + contentData + '>' }}</p>
-        <p [textContent]="contentData"></p>
-    `
+          <div class="counter" (mousemove)="printPosition($event)" [style.background-color]="getColor()">{{curCount}}</div>
+          <div class="buttons">
+            <button color="primary" on-click="inc()">+</button>
+            <button color="primary" (click)="dec()">-</button>
+          </div>
+    	  `
 })
 export class AppComponent {
-    contentData: string;
+    curCount: number;
 
     constructor() {
-        this.contentData = "데이터 노출은 Angular에게 위임을";
+        this.curCount = 0;
     }
 
-    // 권장하지 않는 방식, 파이프를 사용하는 것이 더 좋음
-    getSomeText(appName: string) {
-       return `${appName}를 공부하는 방법!`;
+    getColor() {
+        if (this.curCount == 0) {
+            return 'grey';
+        } else if (this.curCount < 0) {
+            return 'red';
+        } else {
+            return 'green'
+        }
+    }
+
+    printPosition($event) {
+        console.log(`X Pos: ${$event.clientX}, Y Pos: ${$event.clientY}`);
+    }
+
+    inc() {
+        this.curCount++;
+    }
+
+    dec() {
+        this.curCount--;
     }
 }

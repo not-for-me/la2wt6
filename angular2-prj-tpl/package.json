@@ -32,6 +32,7 @@
     "lite-server": "^2.2.2",
     "css-loader": "^0.23.1",
     "html-webpack-plugin": "^2.22.0",
+    "copy-webpack-plugin": "^3.0.1",
     "raw-loader": "^0.5.1",
     "to-string-loader": "^1.1.5",
     "typescript": "^2.0.3",

@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -34,6 +35,7 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin({ name: ['app', 'polyfills'], minChunks: Infinity }),
     new HtmlWebpackPlugin({
       template: 'src/index.html'
-    })
+    }),
+    new CopyWebpackPlugin([{ from: 'src/favicon.ico', to: 'favicon.ico' }])
   ]
 };

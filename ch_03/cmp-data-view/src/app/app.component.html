@@ -1,5 +1,5 @@
-<div class="app-content">
-	<p>{{contentData}}</p>
-	<p [textContent]="contentData"></p>
-	<button color="primary">{{getSomeButtonText('abc')}}</button>
+<div class="counter" [style.background-color]="getColor()">{{counter}}</div>
+<div class="buttons">
+	<button color="primary" (click)="inc()">+</button>
+	<button color="primary" (click)="dec()">-</button>
 </div>

@@ -1,0 +1,37 @@
+<h1>{{appTitle}}</h1>
+<div class="container">
+	<button type="button" (click)="toggleView()">눌러봅시다.</button>
+	<p *ngIf="isShow">You are special!</p>
+	<p *ngIf="!isShow">I 'm so depressed</p>
+	<div class="member-info" *ngIf="member">
+		<p>{{member.name}}</p>
+		<p>{{member.email}}</p>
+	</div>
+
+	<ul>
+		<li *ngFor="let animal of animals" my-directive>{{ index + 1 }} {{animal}}</li>
+	</ul>
+	<div [ngSwitch]="animal">
+		<div *ngSwitchCase="'Dog'">멍멍</div>
+		<div *ngSwitchCase="'Cat'">야옹</div>
+		<div *ngSwitchCase="'Cock'">꼬끼오</div>
+		<div *ngSwitchDefault>에헴!</div>
+	</div>
+
+	<div [ngClass]="myObj">Angular NgClass 속성 지시자</div>
+	<div [style.background-color]="counter > 0 ? 'green' : 'red'">카운터</div>
+	<p [ngStyle]="styleConf">NgStyle 속성 지시자</p>
+	<label name="member-name">{{ member.name | uppercase | honor | geekMark:'A' }}</label>
+</div>
+
+<!--<p>
+	Hip!
+</p>
+<template>
+	<p>
+		Hip!
+	</p>
+</template>
+<p>
+	Hooray!
+</p>-->

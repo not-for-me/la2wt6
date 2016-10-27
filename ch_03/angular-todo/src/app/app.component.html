@@ -1,0 +1,13 @@
+<md-toolbar color="primary">
+	Angular Todo 애플리케이션
+	<span class="app-toolbar-filler"></span>
+	<md-icon class="md-24" md-tooltip="some message" tooltip-position="below" (click)="openDialog()">add</md-icon>
+</md-toolbar>
+<div class="app-content">
+	<md-card class="todo-item" *ngFor="let todo of todos | async">
+		{{todo.content}} | {{todo.createdAt | date:'yMMMdjms'}}
+		<button md-icon-button class="remove-btn" (click)="removeTodo(todo.$key)">
+    		<md-icon class="md-24">delete</md-icon>
+		</button>
+	</md-card>
+</div>

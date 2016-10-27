@@ -1,0 +1,16 @@
+md-toolbar {
+  padding: 0 10%;
+}
+
+.app-toolbar-filler {
+  flex: 1 1 auto;
+}
+
+.app-content {
+   padding:0 10%;
+}
+
+.todo-item {
+  margin: 10px 5px;
+}
+

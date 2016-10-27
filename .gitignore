@@ -2,3 +2,4 @@
 /**/yarn*
 /**/dist/
 .vscode/
+firebase.config.ts

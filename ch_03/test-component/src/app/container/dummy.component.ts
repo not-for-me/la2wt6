@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
 
 import { Dummy2Component } from './dummy2.component';
 
+// import { Component } from '@angular/core';
 @Component({
     selector: 'dummy',
     template: `
@@ -11,3 +11,5 @@ import { Dummy2Component } from './dummy2.component';
 })
 export class DummyComponent {
 }
+import { Component } from '@angular/core';
+

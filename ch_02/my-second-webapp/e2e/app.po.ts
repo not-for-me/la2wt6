@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class SvcSamplePage {
+export class MySecondWebappPage {
   navigateTo() {
     return browser.get('/');
   }

@@ -1,10 +1,10 @@
-import { SvcSamplePage } from './app.po';
+import { MySecondWebappPage } from './app.po';
 
-describe('svc-sample App', function() {
-  let page: SvcSamplePage;
+describe('my-second-webapp App', function() {
+  let page: MySecondWebappPage;
 
   beforeEach(() => {
-    page = new SvcSamplePage();
+    page = new MySecondWebappPage();
   });
 
   it('should display message saying app works', () => {

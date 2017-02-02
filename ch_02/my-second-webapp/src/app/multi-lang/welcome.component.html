@@ -1,0 +1,13 @@
+<div class="contents">
+    <label for="user-name">사용자 이름: </label>
+    <input type="text" name="user-name" (focusout)="setUserName($event)">
+    <button type="button" (click)="showAlert()">입력</button>
+</div>
+<div id="country-select">
+    <div class="country-box" *ngFor="let country of langMetadata">
+        <img src="{{'/assets/img/' + country.flagImgName}}">
+        <label *ngIf="langType === country.code">선택됨</label>
+        <button type="button" (click)="setLangType(country.code)" 
+            [disabled]="langType === country.code">{{country.name}}</button>
+    </div>
+</div>
